@@ -145,7 +145,7 @@ Một hàm đệ quy gồm _2 phần_:
 
 **Đề bài**: Tháp Hà Nội bao gồm ba thanh dọc (hoặc chốt hoặc tháp) và một số đĩa có kích thước khác nhau có thể trượt lên bất kỳ thanh nào.
 Câu đố bắt đầu với các đĩa trên một thanh theo thứ tự tăng dần về kích thước, nhỏ nhất ở trên cùng, do đó tạo thành hình nón.
-<img src="https://genk.mediacdn.vn/2017/photo-1-1488855314632.png" alt="Hình ảnh minh họa bài toán tháp hà nội">
+<img src="./img.webp" alt="Hình ảnh minh họa bài toán tháp hà nội">
 Mục tiêu của câu đố là di chuyển toàn bộ ngăn xếp sang một thanh khác, thỏa mãn các quy tắc sau:
 Mỗi lần chỉ có thể di chuyển một đĩa.
 Mỗi bước di chuyển bao gồm việc lấy đĩa trên từ một trong các thanh và đặt nó lên một thanh khác, lên trên các đĩa khác có thể đã có trên thanh đó.
