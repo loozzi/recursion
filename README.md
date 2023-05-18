@@ -192,3 +192,11 @@ Không có đĩa nào có thể được đặt trên đĩa nhỏ hơn.
 ```
 
 </details>
+
+## Một số bài toán có thể áp dụng đệ quy
+
+- Sắp xếp trộn (Merge sort), sắp xếp nhanh (Quicksort)
+- Tìm kiếm nhị phân (Binary search)
+- Tính UCLN, BCNN
+- Tìm dãy Fibonacci
+- ...
