@@ -162,7 +162,14 @@ Không có đĩa nào có thể được đặt trên đĩa nhỏ hơn.
   <summary>Mã giả</summary>
 
 ```
-
+  solve(n, source, destination, extra) {
+    if (n==1) {
+      print move from source to destination
+    }
+    solve(n-1, source, extra, destination);
+    print move from source to destination;
+    solve(n-1, extra, destination, source);
+  }
 
 ```
 
@@ -172,6 +179,15 @@ Không có đĩa nào có thể được đặt trên đĩa nhỏ hơn.
   <summary>Cài đặt <i>(C++)</i>:</summary>
 
 ```
+  void solve(int n, char source, char destination, char extra){
+    if (n == 1) {
+      cout << "Move from " << source << " to " << destination << endl;
+    }
+    solve(n-1, source, extra, destination);
+    cout << "Move from " << source << " to " << destination << endl;
+
+    solve(n-1, extra, destination, source);
+  }
 
 ```
 
